@@ -1,0 +1,116 @@
+<html>
+
+
+<head>
+    <meta content='charset=UTF-8'>
+    <link rel="stylesheet" href='Vse.css'>
+</head>
+<body>
+    <div class="windows">
+        <input type="button" id="RP" value="Cоздать исполнителя" onclick="RegistrationPerfomen()" class="hidden">
+        <input type="button" id="RC" value="Регистрация клиента" onclick="RegistrationClient()">
+        <input type="button" id="Exit" value="Выход" onclick="Exite()" class="hidden">
+        <input type="button" id="Back" value="Главная" onclick="back()" class="hidden">
+    </div>
+
+    <div class ='authorization'>
+        <label>
+            Ведите логин
+            <input type="text" id="Login" class="moi">
+
+        </label>
+        <br>
+        <input type="button" value="Зайти" onclick="autorization()">
+    </div>
+
+
+    <div class="application">
+        <ul class="list">
+            <li><strong>Имя:</strong></li>
+            <li><strong>Заявка:</strong></li>
+            <li><strong>Комментарий:</strong></li>
+        </ul>
+
+        <input type="button" value="Добавить комментарий" class="create" onclick="AddComments()">
+        <input type="button" id="RR" value="Назначить исполнителя" onclick="AssignPerfomen()" class="hidden">
+    </div>
+
+    <div class="TableApplications">
+        <table class="table">
+            <tr>
+                <th class="TH_Name">Имя</th>
+                <th class="TH_application"> Заявка</th>
+            </tr>
+        </table>
+        <input type='button' onclick="addtr()" value="Добавить заявку" id="addtr" class="addtr hidden">
+    </div>
+
+
+
+
+    <div class="Comment moiblock">
+        <p class="moi">Добавьте комментарий</p>
+        <textarea> </textarea>
+        <br>
+        <input type="button" value="Добавить" onclick="AddComment()">
+    </div>
+
+
+    <div class="Client moiblock">
+        <h2 align="center">Регистрация клиента</h2>
+        <label>
+            ведите имя
+            <input type="text" class="moi">
+        </label>
+        <br>
+        <input type="button" value="Добавиться" class="RegistrationName moi" onclick="SignUpClient()">
+    </div>
+
+
+    <div class="performer moiblock">
+        <h2 align="center">Добавления исполниетеля</h2>
+        <label>
+            ведите имя
+            <input type="text" class="moi">
+        </label>
+        <br>
+        <input type="button" id="RegistrationName" value="Добавть" class="moi" onclick="SignUpPerformer()">
+    </div>
+
+
+    <div class="editor moiblock">
+        <label>Ведите имя
+            <input type="text" class="Name moi" size="41">
+        </label>
+        <br>
+        <label>Ведите заявку
+            <input type="text" class="ticket moi" size="30">
+        </label>
+        <input type="button" value="Добавить" class="add" onclick="addTicket()">
+    </div>
+
+
+
+    <div class="DefineExecutor moiblock">
+        <h2>Назначения исполниетеля</h2>
+        <p class="moi">Веберите Заявку</p>
+        <select class="ClientList">
+        </select>
+        <br>
+        <p class="moi">выберите исполнителя</p>
+        <select class="Performer">
+        </select>
+        <br>
+        <input type="button" value="Добавить" class="moi" onclick="AssignTicket()">
+    </div>
+    <script src="work.js"></script>
+    <script src="head.js"></script>
+    <script src="table.js"></script>
+    <script src="registration.js"></script>
+    <script src="addticket.js"></script>
+
+    <script src="Event.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

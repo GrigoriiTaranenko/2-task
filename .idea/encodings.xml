@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Event.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/addticket.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/head.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/index.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/main.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/registration.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/table.js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/work.js" charset="windows-1251" />
+  </component>
+</project>
