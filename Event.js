@@ -18,10 +18,10 @@ function autorization() {
                 body=Table.performer(Table.memory.setArray(control.array));
                 break;
             default:
-                return alert('Нет такого');
+                return alert('РќРµС‚ С‚Р°РєРѕРіРѕ');
         }
         body.init();
-    } else alert('Нет такого');
+    } else alert('РќРµС‚ С‚Р°РєРѕРіРѕ');
 }
 
 function Exite() {

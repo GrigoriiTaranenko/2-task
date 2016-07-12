@@ -24,11 +24,11 @@ function Work(application, numer){
             creation=false;
             document.body.removeChild(self);
         }
-        else return(alert('объекта нет'))
+        else return(alert('РѕР±СЉРµРєС‚Р° РЅРµС‚'))
     };
 
     this.append=function(numer){
-        if (creation) alert('объект уже был создан');
+        if (creation) alert('РѕР±СЉРµРєС‚ СѓР¶Рµ Р±С‹Р» СЃРѕР·РґР°РЅ');
         else {
             creation=true;
             self=document.body.insertBefore(self.cloneNode(true), document.body.children[numer]);

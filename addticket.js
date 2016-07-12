@@ -28,7 +28,7 @@ function Addticket(application,numer) {
                 User.array.push(DB.count-1);
                 localStorage.setItem(Table.memory.Name, JSON.stringify(User));
             }
-        } else alert('не хватает данных');
+        } else alert('РЅРµ С…РІР°С‚Р°РµС‚ РґР°РЅРЅС‹С…');
     };
     this.OutputStringAdmin=function(Numer){
         RR.classList.remove('hidden');
@@ -93,6 +93,6 @@ function Addticket(application,numer) {
             Name.array.push(ticket);
             localStorage.setItem(performer, JSON.stringify(Name));
         }
-        else alert('У него есть такая задача');
+        else alert('РЈ РЅРµРіРѕ РµСЃС‚СЊ С‚Р°РєР°СЏ Р·Р°РґР°С‡Р°');
     }
 }

@@ -2,11 +2,11 @@
 Table.prototype=Object.create(Work.prototype);
 Table.prototype.constructor = Table;
 /**
- * Класс для вызова Таблицы
- * @param application - Параметр для передачи блока таблицы
- * @param numer - Параметр для расположние данного блока
- * @constructor - Наследуется от Work + дополняет
- * @TableDelete - Удаления всех ненужных элементов в таблицы
+ * РљР»Р°СЃСЃ РґР»СЏ РІС‹Р·РѕРІР° РўР°Р±Р»РёС†С‹
+ * @param application - РџР°СЂР°РјРµС‚СЂ РґР»СЏ РїРµСЂРµРґР°С‡Рё Р±Р»РѕРєР° С‚Р°Р±Р»РёС†С‹
+ * @param numer - РџР°СЂР°РјРµС‚СЂ РґР»СЏ СЂР°СЃРїРѕР»РѕР¶РЅРёРµ РґР°РЅРЅРѕРіРѕ Р±Р»РѕРєР°
+ * @constructor - РќР°СЃР»РµРґСѓРµС‚СЃСЏ РѕС‚ Work + РґРѕРїРѕР»РЅСЏРµС‚
+ * @TableDelete - РЈРґР°Р»РµРЅРёСЏ РІСЃРµС… РЅРµРЅСѓР¶РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ РІ С‚Р°Р±Р»РёС†С‹
  */
 function Table(application,numer){
     Work.apply(this,arguments);

@@ -13,10 +13,10 @@ function Registration(application, numer){
     };
     this.addUser=function(name, status){
         var TestName=localStorage.getItem(name);
-        if (TestName!=null) return alert('нихуя');
+        if (TestName!=null) return alert('РЅРёС…СѓСЏ');
         regisration.status=status;
         localStorage.setItem(name, JSON.stringify(regisration));
-        alert('Успешно добавленно');
+        alert('РЈСЃРїРµС€РЅРѕ РґРѕР±Р°РІР»РµРЅРЅРѕ');
         if (status=='performer'){
             var Performer=JSON.parse(localStorage.getItem('!Performer!'));
             Performer.Name.push(name);

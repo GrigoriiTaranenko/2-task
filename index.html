@@ -7,101 +7,101 @@
 </head>
 <body>
     <div class="windows">
-        <input type="button" id="RP" value="Cоздать исполнителя" onclick="RegistrationPerfomen()" class="hidden">
-        <input type="button" id="RC" value="Регистрация клиента" onclick="RegistrationClient()">
-        <input type="button" id="Exit" value="Выход" onclick="Exite()" class="hidden">
-        <input type="button" id="Back" value="Главная" onclick="back()" class="hidden">
+        <input type="button" id="RP" value="CРѕР·РґР°С‚СЊ РёСЃРїРѕР»РЅРёС‚РµР»СЏ" onclick="RegistrationPerfomen()" class="hidden">
+        <input type="button" id="RC" value="Р РµРіРёСЃС‚СЂР°С†РёСЏ РєР»РёРµРЅС‚Р°" onclick="RegistrationClient()">
+        <input type="button" id="Exit" value="Р’С‹С…РѕРґ" onclick="Exite()" class="hidden">
+        <input type="button" id="Back" value="Р“Р»Р°РІРЅР°СЏ" onclick="back()" class="hidden">
     </div>
 
     <div class ='authorization'>
         <label>
-            Ведите логин
+            Р’РµРґРёС‚Рµ Р»РѕРіРёРЅ
             <input type="text" id="Login" class="moi">
 
         </label>
         <br>
-        <input type="button" value="Зайти" onclick="autorization()">
+        <input type="button" value="Р—Р°Р№С‚Рё" onclick="autorization()">
     </div>
 
 
     <div class="application">
         <ul class="list">
-            <li><strong>Имя:</strong></li>
-            <li><strong>Заявка:</strong></li>
-            <li><strong>Комментарий:</strong></li>
+            <li><strong>РРјСЏ:</strong></li>
+            <li><strong>Р—Р°СЏРІРєР°:</strong></li>
+            <li><strong>РљРѕРјРјРµРЅС‚Р°СЂРёР№:</strong></li>
         </ul>
 
-        <input type="button" value="Добавить комментарий" class="create" onclick="AddComments()">
-        <input type="button" id="RR" value="Назначить исполнителя" onclick="AssignPerfomen()" class="hidden">
+        <input type="button" value="Р”РѕР±Р°РІРёС‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёР№" class="create" onclick="AddComments()">
+        <input type="button" id="RR" value="РќР°Р·РЅР°С‡РёС‚СЊ РёСЃРїРѕР»РЅРёС‚РµР»СЏ" onclick="AssignPerfomen()" class="hidden">
     </div>
 
     <div class="TableApplications">
         <table class="table">
             <tr>
-                <th class="TH_Name">Имя</th>
-                <th class="TH_application"> Заявка</th>
+                <th class="TH_Name">РРјСЏ</th>
+                <th class="TH_application"> Р—Р°СЏРІРєР°</th>
             </tr>
         </table>
-        <input type='button' onclick="addtr()" value="Добавить заявку" id="addtr" class="addtr hidden">
+        <input type='button' onclick="addtr()" value="Р”РѕР±Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ" id="addtr" class="addtr hidden">
     </div>
 
 
 
 
     <div class="Comment moiblock">
-        <p class="moi">Добавьте комментарий</p>
+        <p class="moi">Р”РѕР±Р°РІСЊС‚Рµ РєРѕРјРјРµРЅС‚Р°СЂРёР№</p>
         <textarea> </textarea>
         <br>
-        <input type="button" value="Добавить" onclick="AddComment()">
+        <input type="button" value="Р”РѕР±Р°РІРёС‚СЊ" onclick="AddComment()">
     </div>
 
 
     <div class="Client moiblock">
-        <h2 align="center">Регистрация клиента</h2>
+        <h2 align="center">Р РµРіРёСЃС‚СЂР°С†РёСЏ РєР»РёРµРЅС‚Р°</h2>
         <label>
-            ведите имя
+            РІРµРґРёС‚Рµ РёРјСЏ
             <input type="text" class="moi">
         </label>
         <br>
-        <input type="button" value="Добавиться" class="RegistrationName moi" onclick="SignUpClient()">
+        <input type="button" value="Р”РѕР±Р°РІРёС‚СЊСЃСЏ" class="RegistrationName moi" onclick="SignUpClient()">
     </div>
 
 
     <div class="performer moiblock">
-        <h2 align="center">Добавления исполниетеля</h2>
+        <h2 align="center">Р”РѕР±Р°РІР»РµРЅРёСЏ РёСЃРїРѕР»РЅРёРµС‚РµР»СЏ</h2>
         <label>
-            ведите имя
+            РІРµРґРёС‚Рµ РёРјСЏ
             <input type="text" class="moi">
         </label>
         <br>
-        <input type="button" id="RegistrationName" value="Добавть" class="moi" onclick="SignUpPerformer()">
+        <input type="button" id="RegistrationName" value="Р”РѕР±Р°РІС‚СЊ" class="moi" onclick="SignUpPerformer()">
     </div>
 
 
     <div class="editor moiblock">
-        <label>Ведите имя
+        <label>Р’РµРґРёС‚Рµ РёРјСЏ
             <input type="text" class="Name moi" size="41">
         </label>
         <br>
-        <label>Ведите заявку
+        <label>Р’РµРґРёС‚Рµ Р·Р°СЏРІРєСѓ
             <input type="text" class="ticket moi" size="30">
         </label>
-        <input type="button" value="Добавить" class="add" onclick="addTicket()">
+        <input type="button" value="Р”РѕР±Р°РІРёС‚СЊ" class="add" onclick="addTicket()">
     </div>
 
 
 
     <div class="DefineExecutor moiblock">
-        <h2>Назначения исполниетеля</h2>
-        <p class="moi">Веберите Заявку</p>
+        <h2>РќР°Р·РЅР°С‡РµРЅРёСЏ РёСЃРїРѕР»РЅРёРµС‚РµР»СЏ</h2>
+        <p class="moi">Р’РµР±РµСЂРёС‚Рµ Р—Р°СЏРІРєСѓ</p>
         <select class="ClientList">
         </select>
         <br>
-        <p class="moi">выберите исполнителя</p>
+        <p class="moi">РІС‹Р±РµСЂРёС‚Рµ РёСЃРїРѕР»РЅРёС‚РµР»СЏ</p>
         <select class="Performer">
         </select>
         <br>
-        <input type="button" value="Добавить" class="moi" onclick="AssignTicket()">
+        <input type="button" value="Р”РѕР±Р°РІРёС‚СЊ" class="moi" onclick="AssignTicket()">
     </div>
     <script src="work.js"></script>
     <script src="head.js"></script>

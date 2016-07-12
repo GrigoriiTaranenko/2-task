@@ -7,8 +7,8 @@ Head.prototype.constructor=Head;
  * @param application
  * @param numer
  * @constructor
- * @this.qualifier определяет какие кнопки нужно включить при регистрации
- * @this.Home() - делает меню как на первоначальной страницы
+ * @this.qualifier РѕРїСЂРµРґРµР»СЏРµС‚ РєР°РєРёРµ РєРЅРѕРїРєРё РЅСѓР¶РЅРѕ РІРєР»СЋС‡РёС‚СЊ РїСЂРё СЂРµРіРёСЃС‚СЂР°С†РёРё
+ * @this.Home() - РґРµР»Р°РµС‚ РјРµРЅСЋ РєР°Рє РЅР° РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕР№ СЃС‚СЂР°РЅРёС†С‹
  */
 
 function Head(application, numer){
